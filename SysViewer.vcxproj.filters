@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\pelib">
+      <UniqueIdentifier>{bcc7a660-c29b-4821-9d52-8500a3d33a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pelib">
+      <UniqueIdentifier>{494cd069-b218-4f7a-b712-ce6c76dcc9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hexlib">
+      <UniqueIdentifier>{8cba6eac-84c7-4c5b-b962-a82a02967452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hexlib">
+      <UniqueIdentifier>{46c33d51-99ae-457a-bfbf-5fb0b8bfea77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pslib">
+      <UniqueIdentifier>{f21d51ae-bfce-44c2-801a-df6f20288101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pslib">
+      <UniqueIdentifier>{30d32b78-c13d-46eb-9d85-bc9c77e25bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dlllib">
+      <UniqueIdentifier>{6d9b70ed-62fd-4f0f-8778-a01670a3339d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dlllib">
+      <UniqueIdentifier>{724175dc-3228-4027-a708-485a8e714e06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\BoundImportDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\ComHeaderDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\DebugDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\ExportDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\IatDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\MzHeader.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\PeFile.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\PeHeader.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\PeLibAux.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\RelocationsDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\ResourceDirectory.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\buffer\InputBuffer.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="PeLib\buffer\OutputBuffer.cpp">
+      <Filter>Source Files\pelib</Filter>
+    </ClCompile>
+    <ClCompile Include="peview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HexLib\HexLib.cpp">
+      <Filter>Source Files\hexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="hexview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PsLib\PsLib.cpp">
+      <Filter>Source Files\pslib</Filter>
+    </ClCompile>
+    <ClCompile Include="psview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllLib\DllLib.cpp">
+      <Filter>Source Files\dlllib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PeLib\buffer\InputBuffer.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\buffer\OutputBuffer.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\BoundImportDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\ComHeaderDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\DebugDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\ExportDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\IatDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\ImportDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\MzHeader.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\PeFile.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\PeHeader.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\PeLib.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\PeLibAux.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\PeLibInc.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\RelocationsDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\ResourceDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="PeLib\TlsDirectory.h">
+      <Filter>Header Files\pelib</Filter>
+    </ClInclude>
+    <ClInclude Include="hexview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="formatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PsLib\PsLib.h">
+      <Filter>Header Files\pslib</Filter>
+    </ClInclude>
+    <ClInclude Include="DllLib\DllLib.h">
+      <Filter>Header Files\dlllib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="peview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="HexLib\HexLib.h">
+      <Filter>Header Files\hexlib</Filter>
+    </QtMoc>
+    <QtMoc Include="psview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
